@@ -231,6 +231,8 @@ input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
   border-color: #000;
+/* Erase default blue border-color for focused elements */
+ outline: none;
 }
 
 textarea {
@@ -368,7 +370,8 @@ input:focus,
 textarea:focus {
   /* To give a little highlight on active elements */
   border-color: #000;
-}
+/* Erase default blue border-color for focused elements */
+ outline: none;}
 
 textarea {
   /* To properly align multiline text field with their label */
